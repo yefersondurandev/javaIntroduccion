@@ -1,7 +1,7 @@
-package variables;
+package operators;
 
-public class characters {
+public class operatorTernary {
     public static void main(String[] args) {
-        
+
     }
 }

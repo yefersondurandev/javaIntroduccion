@@ -1,6 +1,6 @@
 package variables;
 
-public class primitivoFloat {
+public class primitivoDecimals {
     public static void main(String[] args) {
 
         //La E de exponencia correo hacia la derecha si es positivo el punto o coma y lo mismo para el negativo

@@ -1,6 +1,6 @@
 package variables;
 
-public class primitivos {
+public class primitivesWhole {
     public static void main(String[] args) {
 
         byte numerobyte = 127;
