@@ -15,7 +15,7 @@ public class LogicalOperatorsLogin {
 
 
         */
-        String[] userNames = {"Andres","admin","escobar"};
+        String[] userNames = {"yeferson","admin","escobar"};
         String[] passWords = {"12345","1234","123"};
         Scanner sc = new Scanner(System.in);
 
@@ -28,17 +28,26 @@ public class LogicalOperatorsLogin {
 
         boolean isAutenticado = false;
         for (int i = 0;i < userNames.length;i++){
-            if(userNames[i].equalsIgnoreCase(usuario) && passWords[i].equals(pass)){
+            isAutenticado = (userNames[i].equalsIgnoreCase(usuario) && passWords[i].equals(pass)) ? true:isAutenticado;
+
+
+            /*if(userNames[i].equalsIgnoreCase(usuario) && passWords[i].equals(pass)){
                 isAutenticado = true;
                 break;
-            }
-        }
 
+             */
+            }
+        String mensaje = isAutenticado ? "Bienvenido ".concat(usuario).concat("!") : "username incorrecto carechimba";
+        System.out.println("mensaje = " + mensaje);
+
+        /*
         if(isAutenticado){
             System.out.println("bienvenido xdd");
         }else{
             System.out.println("contraseña no encontraba");
         }
+
+         */
 
 
     }
