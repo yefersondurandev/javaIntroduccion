@@ -2,6 +2,7 @@ package ClaseMath;
 
 public class ExampleClassMath {
     public static void main(String[] args) {
+
         int absoluto = Math.abs(13);
         System.out.println("absoluto = " + absoluto);
 
@@ -19,6 +20,9 @@ public class ExampleClassMath {
 
        Long entero = Math.round(3.5);
        System.out.println("entero = " + entero);
+
+       double exp = Math.exp(3);
+       System.out.println("exp = " + exp);
 
     }
 }
